@@ -64,3 +64,43 @@ color: #ffffffae;
 .scroll-down-text i{
     font-size: 30px;
 }
+.small-text-two h1{
+    color: #a99e94;
+    font-weight: 600;
+}
+.small-text-two h1::after{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 3px;
+    background: #bcc3ce;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+.small-text-two h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: inter;
+    color: #c2a57c;
+}
+.small-text-two h2 span{
+    color: #d4ddea;
+}
+.small-text-two p{
+    color: #b8bcc8;
+    font-weight: 600;
+}
+.small-text-two{
+    bottom: -10%;
+}
+.big-text img{
+    /* clip-path: polygon(0% 99%, 37% 85%, 67% 86%, 100% 77%, 100% 0, 0 0); */
+}
+.routes iframe{
+    top: -6%;
+    box-shadow: 0px 0px 6px 4px #0000007b;
+    border-radius: 2px;
+}
+.route-img{
+    width: 60%;
+}
